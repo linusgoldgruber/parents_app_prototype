@@ -1,0 +1,52 @@
+{
+  "name": "parentsapp",
+  "private": true,
+  "main": "expo/AppEntry",
+  "type": "module",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eas:login": "npx eas-cli login",
+    "eas:whoami": "npx eas-cli whoami",
+    "eas:build:ios": "npx eas-cli build -p ios --profile preview",
+    "eas:build:android": "npx eas-cli build -p android --profile preview",
+    "eas:build:all": "npx eas-cli build -p ios --profile preview && npx eas-cli build -p android --profile preview",
+    "eas:submit:ios": "npx eas-cli submit -p ios --latest",
+    "eas:submit:android": "npx eas-cli submit -p android --latest",
+    "dev:backend": "tsx src/index.ts",
+    "typecheck:app": "tsc --project tsconfig.app.json --noEmit",
+    "typecheck:backend": "tsc --project tsconfig.backend.json --noEmit",
+    "typecheck": "npm run typecheck:app && npm run typecheck:backend"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@supabase/supabase-js": "^2.100.0",
+    "dotenv": "^16.6.1",
+    "expo": "~54.0.0",
+    "expo-av": "~16.0.8",
+    "expo-clipboard": "~8.0.8",
+    "expo-document-picker": "~14.0.8",
+    "expo-file-system": "~19.0.21",
+    "expo-image-picker": "~17.0.10",
+    "expo-sharing": "~14.0.8",
+    "matrix-js-sdk": "^41.3.0",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-calendars": "^1.1314.0",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-url-polyfill": "^3.0.0",
+    "rrule": "^2.8.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.0",
+    "@types/node": "^24.7.2",
+    "@types/react": "~19.1.10",
+    "babel-preset-expo": "~54.0.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

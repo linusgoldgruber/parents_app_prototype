@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "ParentsAPP",
+    "slug": "parentsapp",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f4f8f6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.parentsapp.mobile",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.parentsapp.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#f4f8f6"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4fb66d2-2302-4997-9c7b-979cfbb98d48"
+      }
+    }
+  }
+}

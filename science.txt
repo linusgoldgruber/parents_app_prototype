@@ -1,0 +1,46 @@
+Basic coarse Functional Requirements for the Artifact
+
+This section outlines the core functional requirements for the artifact design. These
+requirements will be derived from the systematic literature review, survey/interview, and
+the case study analysis.
+1.⁠ ⁠User Management and Roles
+The users should be able to identify as the parent, child, or grandparent, and have
+potential relevant privileges depending on their role (e.g. a “child” cannot be allowed to
+delete certain chats)
+2.⁠ ⁠Communication Tools
+The users should be able to communicate privately and in groups.
+3.⁠ ⁠Shared Decision-Making Modules
+The group chats should also have the option of voting to be used in times of decision-
+making.
+4.⁠ ⁠AI-Supported Mediation and Recommendations
+The platform should include an AI mediator, which will provide both pre-texting sugges-
+tions and post-texting mediation.
+5.⁠ ⁠Task and Calendar Coordination
+The users should have a shared calendar, and should be able to create events and invite
+other users to such events.
+6.⁠ ⁠Documentation Upload
+The users should be able to upload documents both in shared events and in individual
+and group chats. They should also be able to set visibility settings to these documents.
+
+
+\section{Concept of the Demonstrator}
+
+The demonstrator to be developed is designed as a modular, web-based prototype. At its core lies the question of \emph{how} digital support must be structured so that it proves helpful rather than escalatory in highly sensitive family contexts. This gives rise to six functional areas:
+
+\subsection*{(1) Secure Asynchronous Communication}
+Communication should—depending on the specific usage context and within the scope of appropriate system configurations—preferably take place asynchronously in order to reduce reactivity and enable more reflective responses, while other forms of communication may also be provided when needed. Messages are logged, but not conceived as a tool for comprehensive surveillance. A transparent, context-sensitive, and configurable audit trail concept supports traceability to the necessary extent, without generating excessive or unnecessary data.
+
+\subsection*{(2) Assistive Tone Coaching}
+Before sending a message, the system may provide indications of potentially escalating phrasing and suggest alternative, more neutral formulations. This function remains strictly assistive: the decision to accept, reject, or reformulate remains with the parents.
+
+\subsection*{(3) Multilingualism and Linguistic Accessibility}
+The interface and core assistance functions should be designed to support multiple languages. In addition to translation support, features include simplification, reformulation into more easily understandable language, and clarification of terminology. The goal is not perfect translation, but \textbf{communicative accessibility} in a linguistically diverse city.
+
+\subsection*{(4) Third-Party Access with Granular Consent}
+With the consent of both parents—and technically differentiable by purpose and scope—defined professional roles (e.g., mediator, social worker) may view or comment on specific areas. A key element here is a highly granular permission model: who can see what, when, why, and on what legal or consent basis?
+
+\subsection*{(5) Evidence-Based Information Assistance}
+Another component is a curated, scientifically grounded information assistance system addressing topics such as child development, stress reactions following separation, transition management, or age-appropriate communication. Unlike open chatbot responses, this function is based on a validated knowledge base, clearly marked as supportive, and allows for human oversight.
+
+\subsection*{(6) Safety, Consent, and Governance Layer}
+From the outset, the demonstrator incorporates protective mechanisms: role-based access control, granular consent management, logging of relevant system actions, privacy by default, transparent AI disclosures, and safety logic for situations in which use is not recommended or only appropriate under certain restrictions.
