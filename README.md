@@ -1,6 +1,8 @@
 # ParentsAPP
 
+
 ParentsAPP is an inclusive, AI-supported family decision-making prototype.
+
 
 Current state:
 - Matrix is the messaging core for chat.
